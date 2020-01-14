@@ -18,11 +18,12 @@ spec:
     chePostgresHostName: ''
     chePostgresPort: ''
     chePostgresUser: ''
-    chePostgresPassword: ''
+    chePostgresPassword: 'admin'
     chePostgresDb: ''
   auth:
     openShiftoAuth: false
     identityProviderImage: ''
+    identityProviderPassword: 'admin'
     externalIdentityProvider: false
     identityProviderURL: ''
     identityProviderRealm: ''
