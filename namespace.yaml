@@ -1,6 +1,4 @@
-kind: Namespace
 apiVersion: v1
+kind: Namespace
 metadata:
-  name: che-operator
-  labels:
-    name: che-operator
+  name: codeready
