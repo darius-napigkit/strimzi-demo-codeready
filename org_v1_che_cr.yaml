@@ -13,6 +13,8 @@
 apiVersion: org.eclipse.che/v1
 kind: CheCluster
 metadata:
+  annotations:
+    argocd.argoproj.io/sync-options: Validate=false
   name: eclipse-che
 spec:
   server:
