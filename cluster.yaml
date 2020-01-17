@@ -7,27 +7,42 @@ metadata:
     argocd.argoproj.io/sync-options: Validate=false
 spec:
   server:
-    cheImageTag: ''
+    cheDebug: 'false'
     cheFlavor: codeready
+    cheHost: codeready-codeready.apps.ly-demo.openshiftaws.com
+    cheLogLevel: INFO
+    externalDevfileRegistry: false
+    externalPluginRegistry: false
+    selfSignedCert: false
+    tlsSupport: false
+    cheImageTag: ''
     devfileRegistryImage: ''
     pluginRegistryImage: ''
-    tlsSupport: false
-    selfSignedCert: false
   database:
-    externalDb: false
+    chePostgresDb: dbche
+    chePostgresHostName: postgres
+    chePostgresDb: ''
     chePostgresHostName: ''
+    chePostgresPassword: admin
+    chePostgresPort: '5432'
+    chePostgresUser: pgche
     chePostgresPort: ''
     chePostgresUser: ''
-    chePostgresPassword: 'admin'
-    chePostgresDb: ''
+    externalDb: false
   auth:
-    openShiftoAuth: false
-    identityProviderImage: ''
-    identityProviderPassword: 'admin'
     externalIdentityProvider: false
-    identityProviderURL: ''
-    identityProviderRealm: ''
+    identityProviderAdminUserName: admin
+    identityProviderClientId: codeready-public
     identityProviderClientId: ''
+    identityProviderPassword: admin
+    identityProviderPostgresPassword: rquJDwo2fKBp
+    identityProviderRealm: codeready
+    identityProviderURL: 'http://keycloak-codeready.apps.ly-demo.openshiftaws.com'
+    identityProviderRealm: ''
+    identityProviderURL: ''
+    openShiftoAuth: false
+    updateAdminPassword: false
+    identityProviderImage: ''
   storage:
     pvcStrategy: per-workspace
     pvcClaimSize: 1Gi
