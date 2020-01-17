@@ -21,25 +21,18 @@ spec:
   database:
     chePostgresDb: dbche
     chePostgresHostName: postgres
-    chePostgresDb: ''
-    chePostgresHostName: ''
     chePostgresPassword: admin
     chePostgresPort: '5432'
     chePostgresUser: pgche
-    chePostgresPort: ''
-    chePostgresUser: ''
     externalDb: false
   auth:
     externalIdentityProvider: false
     identityProviderAdminUserName: admin
     identityProviderClientId: codeready-public
-    identityProviderClientId: ''
     identityProviderPassword: admin
     identityProviderPostgresPassword: rquJDwo2fKBp
     identityProviderRealm: codeready
     identityProviderURL: 'http://keycloak-codeready.apps.ly-demo.openshiftaws.com'
-    identityProviderRealm: ''
-    identityProviderURL: ''
     openShiftoAuth: false
     updateAdminPassword: false
     identityProviderImage: ''
