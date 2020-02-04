@@ -34,7 +34,6 @@ spec:
     identityProviderURL: 'http://keycloak-codeready.apps.ly-demo.openshiftaws.com'
     openShiftoAuth: false
     updateAdminPassword: false
-    identityProviderImage: ''
   storage:
     pvcStrategy: per-workspace
     pvcClaimSize: 1Gi
