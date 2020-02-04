@@ -8,7 +8,7 @@ spec:
   server:
     cheDebug: 'false'
     cheFlavor: codeready
-    cheHost: codeready-codeready.apps.ly-demo.openshiftaws.com
+    #cheHost: codeready-codeready.apps.ly-demo.openshiftaws.com
     cheLogLevel: INFO
     externalDevfileRegistry: false
     externalPluginRegistry: false
