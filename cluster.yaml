@@ -14,9 +14,9 @@ spec:
     externalPluginRegistry: false
     selfSignedCert: false
     tlsSupport: false
-    cheImageTag: ''
-    devfileRegistryImage: ''
-    pluginRegistryImage: ''
+    #cheImageTag: ''
+    #devfileRegistryImage: ''
+    #pluginRegistryImage: ''
   database:
     chePostgresDb: dbche
     chePostgresHostName: postgres
