@@ -1,5 +1,5 @@
 metadata:
-  name: strimzi-demo-devspace
+  name: strimzi-demo-devspacezrbpp
 projects:
   - name: strimzi-openshift-demo
     source:
@@ -25,6 +25,14 @@ projects:
   - name: strimzi-demo-prometheus
     source:
       location: 'https://github.com/ably77/strimzi-demo-prometheus'
+      type: git
+  - name: strimzi-demo-voteapp-pipeline
+    source:
+      location: 'https://github.com/ably77/strimzi-demo-voteapp-pipeline'
+      type: git
+  - name: strimzi-demo-voteapp
+    source:
+      location: 'https://github.com/ably77/strimzi-demo-voteapp'
       type: git
 components:
   - id: ms-vscode/go/latest
