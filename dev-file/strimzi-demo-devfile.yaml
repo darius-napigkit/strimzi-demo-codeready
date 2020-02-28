@@ -1,9 +1,9 @@
 metadata:
-  name: strimzi-demo-devspacezrbpp
+  name: strimzi-demo-devspace
 projects:
-  - name: strimzi-openshift-demo
+  - name: openshift-testbed
     source:
-      location: 'https://github.com/ably77/strimzi-openshift-demo'
+      location: 'https://github.com/ably77/openshift-testbed'
       type: git
       branch: master
   - name: iot-argocd
