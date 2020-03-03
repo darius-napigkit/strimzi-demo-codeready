@@ -31,7 +31,8 @@ spec:
     identityProviderPassword: admin
     identityProviderPostgresPassword: rquJDwo2fKBp
     identityProviderRealm: codeready
-    identityProviderURL: 'http://keycloak-codeready.apps.ly-demo.openshiftaws.com'
+    identityProviderURL: 'http://keycloak-codeready.apps.orion.metheor.xyz'
+    #identityProviderURL: 'http://keycloak-codeready.apps.ly-demo.openshiftaws.com'
     openShiftoAuth: false
     updateAdminPassword: false
   storage:
